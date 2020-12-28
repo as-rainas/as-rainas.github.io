@@ -1,0 +1,185 @@
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap");
+
+body {
+  text-align: justify;
+  font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
+  margin: 0 auto;
+  background-color: #fff;
+  color: #333;
+}
+
+.top-decorations {
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 100%;
+  height: 10px;
+  background: #5b9bbc url(../img/top-decorations.png) repeat-x top center;
+}
+
+.header-layout {
+  background-image: url("../img/bg.jpg");
+  background-size: cover;
+}
+.inner-header {
+  background-color: rgba(13, 27, 65, 0.8);
+}
+.header-intro {
+  color: aliceblue;
+  padding-top: 380px;
+  padding-bottom: 300px;
+}
+.header-intro h1 {
+  font-family: "Righteous", cursive;
+  text-transform: uppercase;
+  font-size: 90px;
+}
+.header-intro h3 {
+  font-family: "Share Tech Mono", monospace;
+  text-transform: uppercase;
+  font-size: 45px;
+}
+.border {
+  width: 290px;
+  height: 3px;
+  background: #ccc;
+  display: inline-block;
+}
+
+.nav-bar {
+  width: 100%;
+  height: 60px;
+  text-align: center;
+
+  margin: 0 auto;
+}
+
+.nav-bar ul {
+  margin: 0 auto;
+  padding: 0;
+  list-style: none;
+  display: inline-block;
+  *display: inline;
+}
+.nav-bar ul li {
+  padding: 0 8px;
+  line-height: 60px;
+  display: inline-block;
+  float: left;
+  text-transform: uppercase;
+}
+
+.nav-bar ul li a {
+  display: block;
+  font-size: 0.938em;
+  letter-spacing: 0.1em;
+  color: #5b9bbc;
+  text-decoration: none;
+}
+
+.nav-bar ul li a:hover {
+  color: #fff;
+}
+
+.about-me {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  align-content: center;
+  text-align: center;
+}
+.heading {
+  padding-bottom: 30px;
+}
+.border-underline {
+  width: 290px;
+  height: 1px;
+  background: rgb(240, 125, 58);
+  display: inline-block;
+}
+
+.photo {
+  float: left;
+}
+.photo img {
+  width: 80%;
+}
+
+.introduction {
+  padding-top: 40px;
+  text-align: justify;
+  float: left;
+}
+.interest {
+  padding-top: 40px;
+  text-align: justify;
+  float: left;
+}
+
+.technical-skills {
+  background-color: rgb(235, 235, 235);
+  padding-top: 100px;
+  padding-bottom: 100px;
+  text-align: center;
+}
+
+.skill {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  float: left;
+  text-align: center;
+  text-decoration: solid;
+  padding-left: 200px;
+  font-size: larger;
+}
+
+.work-experience {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  text-align: center;
+}
+.position-ase {
+  padding-bottom: 40px;
+}
+.position-title span {
+  color: rgb(160, 156, 156);
+  font-size: 18px;
+}
+
+.education {
+  background-color: rgb(235, 235, 235);
+  padding-top: 100px;
+  padding-bottom: 100px;
+  text-align: center;
+}
+
+.works {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  text-align: center;
+}
+
+.footer {
+  background-color: rgb(13, 27, 65);
+  olor: #5b9bbc;
+  text-align: center;
+  align-content: center;
+}
+
+.social-media {
+  width: 250px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  padding-left: 100px;
+  float: left;
+}
+
+.footer a {
+  color: #2cb0f1;
+}
+.footer a:hover {
+  color: #fff;
+}
